@@ -53,13 +53,13 @@ This project presents a list of popular Canadian meals using Bootstrap-powered H
    git clone https://github.com/mdshihabshahriar/Simple-Meals-Showcase.git
    cd practice_project
 
-2. **Install Django**
+2. **Install Django:**
     pip install django
 
-3. **Run the Development Server**
+3. **Run the Development Server:**
     python manage.py runserver
 
-4. **Visit in Browser**
+4. **Visit in Browser:**
     http://127.0.0.1:8000/    
 
 
