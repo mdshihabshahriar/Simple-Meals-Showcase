@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Meal ID</th>
+        <th scope="col">Meal Name</th>
+        <th scope="col">Meal Photo</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for i in meals %}
+      <tr>
+        <th scope="row">{{i.idMeal}}</th>
+        <td>{{i.strMeal}}</td>
+        <td><img src="{{i.strMealThumb}}" alt="" width="100"></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+  {% endblock %}
